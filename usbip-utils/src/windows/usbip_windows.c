@@ -17,8 +17,8 @@
  */
 
 #include "usbip.h"
-#include "usbip_network.h"
-#include "usbip_osspecific.h"
+#include "..\usbip_network.h"
+#include "..\usbip_osspecific.h"
 
 #include <initguid.h>
 #include <setupapi.h>

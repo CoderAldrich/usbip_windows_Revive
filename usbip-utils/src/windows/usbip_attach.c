@@ -30,8 +30,9 @@
 #include <winioctl.h>
 
 #include "usbip.h"
-#include "usbip_network.h"
-#include "usbip_osspecific.h"
+#include "..\usbip_network.h"
+#include "..\usbip_osspecific.h"
+#include "usbip_windows.c"
 
 static const char usbip_attach_usage_string[] =
     "usbip attach <args>\n"
